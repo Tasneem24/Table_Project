@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  font-family: "Roboto";
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: rgb(15, 133, 211);
+  color: white;
+}
+
+tr > td {
+  padding: 6px 10px;
+}
+.btn-edit {
+  background-color: rgb(21, 188, 225);
+}
+
+.btn {
+  border: none;
+  height: 25px;
+  width: 60px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background-color: rgb(221, 21, 61);
+}
+
+.btn-upload {
+  margin-left: 312px;
+  background-color: rgb(63, 210, 117);
+  padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
